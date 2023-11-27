@@ -13,6 +13,11 @@ dependencies:
   flutter:
     sdk: flutter
 
+  # utility package
+  http:
+  intl:
+  logger:
+  url_launcher:
 
   # icons 
   cupertino_icons: ^1.0.2
