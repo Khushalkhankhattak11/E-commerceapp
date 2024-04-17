@@ -13,25 +13,25 @@ class TTexts {
   static const String onBoardingSubTitle3 =
       "From our doorstep to your - Swift, Secure, and Contactless Delivery ";
 
+  //// Authenc Frm Text
+
+  static const String firstName = "Khushal";
+  static const String lastName = "khan";
+  static const String email = "E-Mail";
+  static const String password = "Password";
+
+  //// Authenc text heading
+  static const String loginTitle = "Welcome Back";
+  static const String loginsubtitle = "Discover Limitless Choices and Unmatched Conservation";
+  static const String signuptitle = "E-Mail";
+  static const String rememberMe = "Remember ME";
+  static const String forgetpasswordtitle = "Forget Password";
 
 
-      //// Authenc Frm Text 
-     
-     static const String firstName ="Khushal"; 
-     static const String lastName ="khan"; 
-     static const String email ="E-Mail"; 
-     static const String password ="Password"; 
-
-
-   //// Authenc text heading 
-    static const String loginTitle ="Welcome Back"; 
-     static const String loginsubtitle ="khan"; 
-     static const String signuptitle ="E-Mail"; 
-     static const String forgetpasswordtitle ="Password"; 
+  static const String signIn ="Sign In";
+  static const String createAccount ="Create Account";
+  static const String signinwith ="Or Sign in with";
   // --home
   static const String homeAppbarTitle = "Good day for shopping";
   static const String homeAppbarsubTitle = "Khushal khan";
-
-
-
 }

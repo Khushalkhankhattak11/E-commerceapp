@@ -19,6 +19,7 @@ dependencies:
   logger:
   url_launcher:
   flutter_native_splash: ^2.4.0
+  smooth_page_indicator: ^1.1.0
 
   # icons 
   cupertino_icons: ^1.0.2
@@ -40,7 +41,7 @@ flutter:
   # Local Assets
   assets:
     - assets/logos/
-    - assets/images/
+    - assets/images/on-boarding/
     - assets/icons/
 
 

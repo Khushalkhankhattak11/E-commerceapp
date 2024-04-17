@@ -1,6 +1,6 @@
-import 'dart:html';
 
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:url_launcher/url_launcher_string.dart';
@@ -45,6 +45,9 @@ class TDeviceUtiles {
     return MediaQuery.of(Get.context!).padding.top;
   }
 
+  static double getBottomNavigationbarHeight(){
+    return kBottomNavigationBarHeight;
+  }
 
  // static bool isAndroid(){
   //  return Platform.isAndroid;
