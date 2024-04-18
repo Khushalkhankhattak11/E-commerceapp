@@ -31,7 +31,7 @@ class LoginScreen extends StatelessWidget {
               TLoginForm(),
 
               /// Divider
-              TDivider(dark: dark, dividertext: TTexts.signinwith),
+              TDivider( dividertext: TTexts.signinwith),
 
               /// Social button
               TSocialButon()

@@ -1,3 +1,4 @@
+import 'package:commerceapp/util/constants/colors.dart';
 import 'package:flutter/material.dart';
 
 class TTextFormFiledTheme {
@@ -35,13 +36,13 @@ class TTextFormFiledTheme {
   );
    static InputDecorationTheme darkinputTheme = InputDecorationTheme(
     errorMaxLines: 3,
-    prefixIconColor: Colors.white,
-    suffixIconColor: Colors.white,
-    labelStyle: const TextStyle().copyWith(fontSize: 14, color: Colors.black),
-    hintStyle: const TextStyle().copyWith(fontSize: 14, color: Colors.black),
+    prefixIconColor: TColors.darkgrey,
+    suffixIconColor: TColors.darkgrey,
+    labelStyle: const TextStyle().copyWith(fontSize: 14, color: TColors.light),
+    hintStyle: const TextStyle().copyWith(fontSize: 14, color: TColors.light),
     errorStyle: const TextStyle().copyWith(fontStyle: FontStyle.normal),
     floatingLabelStyle:
-        const TextStyle().copyWith(color: Colors.black.withOpacity(0.8)),
+        const TextStyle().copyWith(color: TColors.light.withOpacity(0.8)),
     border: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(14),
       borderSide: const BorderSide(color: Colors.grey, width: 1),

@@ -23,8 +23,8 @@ class TSocialButon extends StatelessWidget {
           child: IconButton(
             onPressed: () {},
             icon: Image(
-              width: 80,
-              height: 80,
+              width: 40,
+              height: 40,
               image: AssetImage(TImage.google),
             ),
           ),
@@ -39,8 +39,8 @@ class TSocialButon extends StatelessWidget {
           child: IconButton(
             onPressed: () {},
             icon: Image(
-              width: 80,
-              height: 80,
+              width: 40,
+              height: 40,
               image: AssetImage(TImage.facebook),
             ),
           ),
