@@ -9,11 +9,11 @@ class TSizes {
   static const double xl = 32.0;
 
   //// card size
-  static const double cardlg = 16.0;
-  static const double cardmd = 12.0;
-  static const double cardsm = 10.0;
-  static const double cardxs = 6.0;
-  static const double cardElevetion = 2.0;
+  static const double cardraduislg = 16.0;
+  static const double cardraduismd = 12.0;
+  static const double cardraduissm = 10.0;
+  static const double cardraduisxs = 6.0;
+  static const double cardraduisElevetion = 2.0;
 
   ///// Icons Size
   static const double Iconsxs = 12.0;
@@ -21,7 +21,10 @@ class TSizes {
   static const double Iconssmd = 24.0;
   static const double Iconwslg = 32.0;
 
-  ///// Font Size
+
+  /// Card Radius
+
+  /// Font Size
 
   static const double Fontsm = 14.0;
   static const double Fontsmd = 16.0;

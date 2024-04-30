@@ -39,7 +39,20 @@ class TTexts {
   static const String and = " and ";
 
   static const String term = "Terms of use";
-  // --home
+
+ /// Email Verify
+  static const String confirmemail = "Verify your email address!";
+  static const String confirmemailtitle = "Congratulations Your Account Awaits Verfity your Email for Starting Shopping and Experience a World of universal Deals and professional Offers";
+
+  static const String tContiune = "Contiune";
+  static const String resend = "Resend Email";
+
+  /// Success
+  static const String youraccountCreatetitle = "your account successfully created";
+
+  /// --home
+
+
   static const String homeAppbarTitle = "Good day for shopping";
   static const String homeAppbarsubTitle = "Khushal khan";
 }
